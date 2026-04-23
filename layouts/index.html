@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="mx-auto max-w-6xl px-6 py-10 md:py-14">
+  <div class="grid gap-10 md:grid-cols-[220px_minmax(0,1fr)]">
+    <aside class="md:sticky md:top-24">
+      <img
+        src="{{ "authors/admin/avatar.png" | relURL }}"
+        alt="Ariful Amin"
+        class="w-48 rounded-2xl border border-slate-200 shadow-sm dark:border-slate-700"
+      />
+      <div class="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
+        <p>Malmö, Sweden</p>
+        <p><a href="mailto:arifulamindu@gmail.com">arifulamindu@gmail.com</a></p>
+        <p><a href="tel:+46722705966">+46 722705966</a></p>
+      </div>
+    </aside>
+
+    <article class="prose prose-slate max-w-none lg:prose-xl dark:prose-invert">
+      {{ .Content }}
+    </article>
+  </div>
+</div>
+{{ end }}

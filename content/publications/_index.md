@@ -1,12 +1,13 @@
 ---
 title: Publications
+date: 2025-04-23
 cms_exclude: true
-
-# View.
-view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+view: article-grid
+columns: 1
+fill_image: false
+show_date: false
+show_read_time: false
+show_read_more: true
 ---
+
+Selected publication relevant to my research profile.

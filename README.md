@@ -1,23 +1,27 @@
-# Ariful Amin - Professional Portfolio
+# Ariful Amin Portfolio
 
-A premium, modern portfolio website showcasing the work and experience of Ariful Amin, a Software Engineer and Data Scientist.
+This repository contains the Hugo-based source for Ariful Amin's portfolio website.
 
-## Features
-- **Modern Design**: Glassmorphism, gradients, and custom CSS animations.
-- **Rich Aesthetics**: Vibrant color palette and premium typography.
-- **Responsive**: Fully optimized for mobile and desktop.
-- **Interactive**: Scroll reveal effects, active link highlighting, and parallax background.
+## Source of Truth
+- Site configuration lives in `config/_default/`.
+- Homepage and section pages live in `content/`.
+- Author/profile data lives in `data/authors/admin.yaml`.
+- Media assets such as the logo, icon, and author avatar live in `assets/media/`.
 
-## Technology Stack
-- HTML5 (Semantic Structure)
-- Vanilla CSS3 (Custom Design System)
-- JavaScript (Interactivity)
-- FontAwesome (Icons)
-- Google Fonts (Outfit & Inter)
+## Main Sections
+- About
+- Education
+- Experience
+- Projects
+- Research
+- Teaching
+- Awards
+- Blogs
 
-## Project Structure
-- `index.html`: Main entry point.
-- `style.css`: Custom design system and styling.
-- `script.js`: Interactive elements and animations.
-- `assets/`: Images and static assets.
-- `hugo-backup/`: Previous Hugo-based site files.
+## Development
+- `npm run dev` runs the Hugo development server.
+- `npm run build` builds the site with Hugo.
+
+## Notes
+- The archived static HTML prototype is kept in `archive/static-prototype/`.
+- The site is optimized for Ariful's research-first profile while preserving his applied AI/ML engineering background.

@@ -1,60 +1,41 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
 appearance:
   mode: system
-  color: indigo
+  color: blue
+  font: serif
 
-# SEO
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+    description: "Ariful Amin is an AI/ML engineer and researcher with 6+ years of experience spanning wearable health systems, industrial analytics, interpretable machine learning, and biomedical AI."
 
-# Site header
 header:
   navbar:
     enable: true
-    block: 'navbar'
     fixed_to_top: true
-    show_search: true
+    align: center
+    show_search: false
     show_theme_chooser: true
+    show_translations: false
     logo:
-      text: 'Your Name'
-
-# Site footer
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
+      text: ""
+      filename: logo.svg
+    button:
       enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      text: Download CV
+      url: uploads/Ariful-Amin-CV.pdf
 
-# Localization
+footer:
+  text: "Open to PhD opportunities, research collaborations, and applied AI/ML work in healthcare, sensing, and data-intensive systems."
+  copyright:
+    notice: "© {year} Ariful Amin. All rights reserved."
+    license:
+      enable: false
+
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2006"
+  time_format: "3:04 PM"
 
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
+comments:
+  provider: ''
+
+search:
+  provider: ''

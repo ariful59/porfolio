@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: 'Ariful Amin | AI/ML Engineer & Researcher'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://ariful59.github.io/porfolio/'
 
 ############################
 ## LANGUAGE
@@ -30,11 +30,13 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+disableKinds: [taxonomy, term, RSS]
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
-  section: [HTML, RSS]
+  home: [HTML]
+  page: [HTML]
+  section: [HTML]
 imaging:
   resampleFilter: lanczos
   quality: 90

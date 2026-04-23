@@ -1,0 +1,41 @@
+schema: hugoblox/author/v1
+slug: admin
+is_owner: true
+name:
+  display: Ariful Amin
+  given: Ariful
+  family: Amin
+  pronunciation: ""
+  pronouns: he/him
+role: AI/ML Engineer and Researcher
+bio: |
+  I build machine learning systems that are practical in the real world and useful in research settings. My work spans wearable health technology, industrial analytics, interpretable machine learning, and data-intensive software systems, with recent focus on biomedical time-series modelling, multimodal learning, and deployable AI.
+
+  I am currently completing a Master's in Applied Data Science at Malmö University while contributing to research on inherently interpretable deep learning for epileptic seizure prediction. Alongside research, I bring 6+ years of engineering experience from Samsung R&D and large-scale industrial software delivery.
+affiliations:
+  - name: Malmö University
+    url: https://mau.se/
+links:
+  - icon: at-symbol
+    url: mailto:arifulamindu@gmail.com
+    label: E-mail
+  - icon: brands/github
+    url: https://github.com/ariful59
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/ariful-amin/
+    label: LinkedIn
+interests:
+  - Interpretable Machine Learning
+  - Biomedical Time-Series Analysis
+  - Multimodal Deep Learning
+  - Real-World ML Systems
+education:
+  - degree: Master’s in Applied Data Science
+    institution: Malmö University
+    start: Sep 2024
+    end: Jun 2026
+  - degree: BSc in Computer Science & Engineering
+    institution: University of Dhaka
+    start: Jan 2014
+    end: Jan 2018
