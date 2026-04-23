@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Radar-based people counting placeholder image">
+  <defs>
+    <linearGradient id="radar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#155e75" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#radar-bg)" />
+  <circle cx="250" cy="360" r="260" fill="none" stroke="#67e8f9" stroke-width="4" opacity="0.18" />
+  <circle cx="250" cy="360" r="190" fill="none" stroke="#67e8f9" stroke-width="4" opacity="0.24" />
+  <circle cx="250" cy="360" r="120" fill="none" stroke="#67e8f9" stroke-width="4" opacity="0.32" />
+  <path d="M250 360 430 270" stroke="#a5f3fc" stroke-width="6" stroke-linecap="round" opacity="0.9" />
+  <circle cx="430" cy="270" r="16" fill="#ecfeff" />
+  <circle cx="520" cy="330" r="13" fill="#a5f3fc" opacity="0.9" />
+  <circle cx="590" cy="250" r="10" fill="#67e8f9" opacity="0.85" />
+  <rect x="660" y="110" width="430" height="500" rx="28" fill="#ffffff" opacity="0.08" />
+  <text x="700" y="235" fill="#67e8f9" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">SENSING / EDGE AI</text>
+  <text x="700" y="325" fill="#ffffff" font-family="Georgia, serif" font-size="58" font-weight="700">Radar-Based</text>
+  <text x="700" y="395" fill="#ffffff" font-family="Georgia, serif" font-size="58" font-weight="700">People Counting</text>
+  <text x="700" y="475" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="28">Dummy placeholder image for project preview</text>
+</svg>

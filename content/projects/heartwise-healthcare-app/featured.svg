@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Samsung HeartWise healthcare app placeholder image">
+  <defs>
+    <linearGradient id="heartwise-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="52%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#heartwise-bg)" />
+  <circle cx="250" cy="220" r="110" fill="#5eead4" opacity="0.22" />
+  <circle cx="940" cy="540" r="160" fill="#bfdbfe" opacity="0.18" />
+  <rect x="120" y="100" width="350" height="520" rx="58" fill="#ffffff" opacity="0.12" />
+  <rect x="165" y="150" width="260" height="420" rx="38" fill="#ffffff" opacity="0.16" />
+  <path d="M278 345c-42-42-108-16-108 42 0 54 108 114 108 114s108-60 108-114c0-58-66-84-108-42Z" fill="#f87171" />
+  <path d="M208 410h50l20-62 36 108 24-46h44" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="560" y="250" fill="#99f6e4" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">WEARABLE HEALTH TECH</text>
+  <text x="560" y="345" fill="#ffffff" font-family="Georgia, serif" font-size="62" font-weight="700">Samsung HeartWise</text>
+  <text x="560" y="425" fill="#dbeafe" font-family="Georgia, serif" font-size="48" font-weight="700">Healthcare App</text>
+  <text x="560" y="505" fill="#ccfbf1" font-family="Arial, Helvetica, sans-serif" font-size="28">Remote cardiac rehabilitation and smartwatch monitoring</text>
+</svg>

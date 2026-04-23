@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: 'Ariful Amin | AI/ML Engineer & Researcher'
+title: 'Ariful Amin | Machine Learning Engineer & Researcher'
 # Website URL
 baseURL: 'https://ariful59.github.io/porfolio/'
 
@@ -49,6 +49,9 @@ taxonomies:
   publication_type: publication_types
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     lineNos: false
 security:

@@ -1,22 +1,67 @@
 {{ define "main" }}
-<div class="mx-auto max-w-6xl px-6 py-10 md:py-14">
-  <div class="grid gap-10 md:grid-cols-[220px_minmax(0,1fr)]">
-    <aside class="md:sticky md:top-24">
-      <img
-        src="{{ "authors/admin/avatar.png" | relURL }}"
-        alt="Ariful Amin"
-        class="w-48 rounded-2xl border border-slate-200 shadow-sm dark:border-slate-700"
-      />
-      <div class="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
-        <p>Malmö, Sweden</p>
-        <p><a href="mailto:arifulamindu@gmail.com">arifulamindu@gmail.com</a></p>
-        <p><a href="tel:+46722705966">+46 722705966</a></p>
+{{ $avatar := resources.Get "media/authors/admin.png" }}
+{{ $author := site.Data.authors.admin }}
+<div class="mx-auto max-w-7xl px-6 py-10 md:py-14">
+  <div class="grid gap-8 xl:grid-cols-[320px_minmax(0,1fr)] xl:items-start">
+    <aside class="xl:sticky xl:top-28">
+      <div class="home-profile-card">
+        <span class="home-status">Open to Graduate Research Roles</span>
+
+        {{ with $avatar }}
+        <div class="home-avatar-shell mt-4">
+          <img
+            src="{{ .RelPermalink }}"
+            alt="Ariful Amin"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+          />
+        </div>
+        {{ end }}
+
+        <div class="mt-5">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-slate-500 dark:text-slate-400">Based in</p>
+          <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">Malmö, Sweden</h2>
+          {{ with $author.role }}
+          <p class="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-300">{{ . }}</p>
+          {{ end }}
+        </div>
+
+        <div class="home-contact-list">
+          {{ with $author.affiliations }}
+          {{ range . }}
+          <p>
+            {{ if .url }}
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ else }}
+            {{ .name }}
+            {{ end }}
+          </p>
+          {{ end }}
+          {{ end }}
+          <p><a href="mailto:arifulamindu@gmail.com">arifulamindu@gmail.com</a></p>
+          <p><a href="tel:+46722705966">+46 722705966</a></p>
+        </div>
+
+        {{ with $author.interests }}
+        <div class="home-chip-grid">
+          {{ range . }}
+          <span class="home-chip">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <div class="home-actions">
+          <a href="{{ "uploads/Ariful-Amin-CV.pdf" | relURL }}" class="home-primary-action">View CV</a>
+          <a href="{{ "research/" | relURL }}" class="home-secondary-action">Research</a>
+        </div>
       </div>
     </aside>
 
-    <article class="prose prose-slate max-w-none lg:prose-xl dark:prose-invert">
-      {{ .Content }}
-    </article>
+    <section class="home-story-card">
+      <article class="prose prose-slate max-w-none lg:prose-xl dark:prose-invert">
+        {{ .Content }}
+      </article>
+    </section>
   </div>
 </div>
 {{ end }}

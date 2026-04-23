@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="mx-auto max-w-6xl px-6 py-10">
+  <header class="max-w-3xl">
+    <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">{{ .Title }}</h1>
+    {{ with .Params.summary }}
+    <p class="mt-4 text-lg leading-8 text-slate-700 dark:text-slate-300">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{ with .Params.teaching_items }}
+  <div class="mt-10 grid gap-6">
+    {{ range . }}
+    <article class="teaching-card">
+      <p class="teaching-card-org">{{ .organization }}</p>
+      <h2 class="teaching-card-title">{{ .role }}</h2>
+      <div class="timeline-block">
+        <span class="timeline-badge">{{ .timeline }}</span>
+      </div>
+      {{ with .summary }}
+      <p class="teaching-card-summary">{{ . }}</p>
+      {{ end }}
+      {{ with .courses }}
+      <div class="mini-tag-row mt-5">
+        {{ range . }}
+        <span class="mini-tag"><strong>{{ . }}</strong></span>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .highlights }}
+      <div class="teaching-highlight-grid">
+        {{ range . }}
+        <p class="teaching-highlight">{{ . | markdownify }}</p>
+        {{ end }}
+      </div>
+      {{ end }}
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="Ariful Amin logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AA logo">
   <defs>
     <linearGradient id="aa-logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f766e" />
       <stop offset="100%" stop-color="#1d4ed8" />
     </linearGradient>
   </defs>
-  <rect x="2" y="6" width="52" height="52" rx="14" fill="url(#aa-logo-gradient)" />
-  <path d="M18 44 28.9 18h1.7L41.2 44h-5.4l-1.9-5.2h-8.7L23.3 44H18Zm8.8-9.8h5.4l-2.7-7.4-2.7 7.4Zm18.3 9.8L56 18h1.7L68.3 44h-5.4L61 38.8h-8.7L50.4 44H45Zm8.8-9.8h5.4l-2.7-7.4-2.7 7.4Z" fill="#fff" />
-  <text x="72" y="29" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#111827">Ariful Amin</text>
-  <text x="72" y="47" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="1.6" fill="#4b5563">AI/ML ENGINEER AND RESEARCHER</text>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#aa-logo-gradient)" />
+  <text
+    x="13.5"
+    y="42"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="30"
+    font-weight="700"
+    letter-spacing="-1.6"
+    fill="#fff">AA</text>
 </svg>

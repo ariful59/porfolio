@@ -3,28 +3,50 @@ title: Experience
 date: 2025-04-23
 hide_date: true
 reading_time: false
+layout: experience
+summary: Industry experience across health-tech wearables, industrial analytics, and deployable machine learning systems.
+experience_items:
+  - organization: Coal Power Generation Company Bangladesh
+    role: Software Programmer
+    timeline: Apr 2022 - Aug 2024
+    summary: Built industrial forecasting and monitoring systems for maintenance planning and real-time analytics.
+    highlights:
+      - "**LSTM forecasting:** Built PyTorch forecasting pipelines and improved maintenance-planning accuracy by 20%."
+      - "**Cloud monitoring:** Developed Docker, AWS, React, and Django workflows for real-time analytics and operational visibility."
+      - "**Delivery:** Built dashboards and monitoring workflows for industrial KPI tracking."
+    skills:
+      - PyTorch
+      - AWS
+      - Docker
+      - React
+      - Django
+      - Time-Series Forecasting
+  - organization: Samsung R&D Institute Bangladesh
+    role: Lead Engineer
+    timeline: Jan 2022 - Apr 2022
+    summary: Led wearable health features for HeartWise in collaboration with Samsung Research America.
+    highlights:
+      - "**HeartWise:** Supported remote cardiac rehabilitation and real-time health monitoring for 5,000+ patients."
+      - "**BLE sync:** Built reliable smartwatch-to-phone synchronization in C++ and reduced deployment cost by 10%."
+      - "**Release quality:** Performed SonarQube-driven quality and security reviews for production releases."
+    skills:
+      - C++
+      - BLE
+      - Wearables
+      - SonarQube
+      - Health Tech
+  - organization: Samsung R&D Institute Bangladesh
+    role: Software Engineer
+    timeline: Apr 2018 - Dec 2021
+    summary: Built core wearable software features, update workflows, and health-tracking capabilities for production devices.
+    highlights:
+      - "**Firmware pipelines:** Implemented IPC data flows for wearable applications in C/C++."
+      - "**Device updates:** Built self-updating mechanisms using Tizen internal APIs and secure signing."
+      - "**Feature delivery:** Added multilingual and health-tracking features, including 6MWT support, while resolving 300+ critical issues."
+    skills:
+      - C
+      - C++
+      - Tizen
+      - IPC
+      - Debugging
 ---
-
-## Software Programmer, Coal Power Generation Company Bangladesh
-
-*Apr 2022 - Aug 2024*
-
-- Built and deployed LSTM-based time-series forecasting models in **PyTorch**, with end-to-end data pipelines and feature engineering, improving maintenance-planning accuracy by **20%**
-- Implemented a cloud-based monitoring system using **Docker**, **AWS**, **React**, and **Django**, integrating machine learning models for real-time analytics and operational decision support
-- Developed dashboards and monitoring workflows that improved visibility into industrial KPIs and supported data-driven maintenance planning
-
-## Lead Engineer, Samsung R&D Institute Bangladesh
-
-*Jan 2022 - Apr 2022*
-
-- Led development of the **HeartWise** smartwatch application in collaboration with Samsung Research America, supporting real-time health monitoring for **5,000+ cardiac patients**
-- Implemented reliable **BLE-based** real-time synchronization pipelines in **C++**, enabling Wi-Fi-based smartwatch operation and reducing deployment cost by **10%**
-- Performed **SonarQube-driven** code-quality and security reviews across releases to support stable health-data workflows
-
-## Software Engineer, Samsung R&D Institute Bangladesh
-
-*Apr 2018 - Dec 2021*
-
-- Implemented firmware-level IPC data pipelines for wearable applications using **C/C++**, improving real-time data flow across resource-constrained devices
-- Built an automated self-updating mechanism for wearables using **Tizen** internal APIs and secure signing, reducing manual maintenance overhead
-- Added multilingual and health-tracking features, including **Six-Minute Walk Test (6MWT)** support, while resolving **300+ critical issues** through log analytics and system debugging

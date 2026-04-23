@@ -7,11 +7,11 @@ name:
   family: Amin
   pronunciation: ""
   pronouns: he/him
-role: AI/ML Engineer and Researcher
+role: Machine Learning Engineer & Researcher
 bio: |
-  I build machine learning systems that are practical in the real world and useful in research settings. My work spans wearable health technology, industrial analytics, interpretable machine learning, and data-intensive software systems, with recent focus on biomedical time-series modelling, multimodal learning, and deployable AI.
+  I build machine learning systems for healthcare and real-world deployment, with 6+ years of industry experience across health-tech and industrial analytics. My current work focuses on interpretable biomedical time-series learning, medical imaging, multimodal AI, and production-grade ML systems.
 
-  I am currently completing a Master's in Applied Data Science at Malmö University while contributing to research on inherently interpretable deep learning for epileptic seizure prediction. Alongside research, I bring 6+ years of engineering experience from Samsung R&D and large-scale industrial software delivery.
+  My stack includes C/C++, Python, PyTorch, FastAPI, AWS, Docker, wearable software, and production ML pipelines. I am currently pursuing a Master's in Applied Data Science at Malmö University, supported by the Swedish Institute Scholarship for Global Professionals.
 affiliations:
   - name: Malmö University
     url: https://mau.se/
@@ -26,10 +26,14 @@ links:
     url: https://www.linkedin.com/in/ariful-amin/
     label: LinkedIn
 interests:
-  - Interpretable Machine Learning
-  - Biomedical Time-Series Analysis
-  - Multimodal Deep Learning
-  - Real-World ML Systems
+  - Machine Learning
+  - Biomedical AI
+  - Time-Series Learning
+  - Medical Imaging
+  - Multimodal Learning
+  - LLM
+  - Generative AI
+  - Interpretable ML
 education:
   - degree: Master’s in Applied Data Science
     institution: Malmö University

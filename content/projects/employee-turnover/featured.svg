@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Employee turnover prediction placeholder image">
+  <defs>
+    <linearGradient id="turnover-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#turnover-bg)" />
+  <g transform="translate(120 160)">
+    <circle cx="90" cy="70" r="42" fill="#e9d5ff" />
+    <rect x="42" y="128" width="96" height="130" rx="24" fill="#c4b5fd" />
+    <circle cx="255" cy="90" r="36" fill="#ddd6fe" opacity="0.85" />
+    <rect x="215" y="138" width="80" height="110" rx="22" fill="#a78bfa" opacity="0.85" />
+    <circle cx="390" cy="82" r="32" fill="#ddd6fe" opacity="0.65" />
+    <rect x="355" y="128" width="70" height="96" rx="20" fill="#8b5cf6" opacity="0.65" />
+    <path d="M470 70 560 70 640 30" fill="none" stroke="#faf5ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="640" cy="30" r="18" fill="#ffffff" />
+  </g>
+  <rect x="640" y="110" width="450" height="500" rx="30" fill="#ffffff" opacity="0.08" />
+  <text x="690" y="235" fill="#ddd6fe" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">PEOPLE ANALYTICS / CLASSIFICATION</text>
+  <text x="690" y="325" fill="#ffffff" font-family="Georgia, serif" font-size="54" font-weight="700">Employee</text>
+  <text x="690" y="395" fill="#ffffff" font-family="Georgia, serif" font-size="54" font-weight="700">Turnover Risk</text>
+  <text x="690" y="475" fill="#ede9fe" font-family="Arial, Helvetica, sans-serif" font-size="28">Dummy placeholder image for project preview</text>
+</svg>

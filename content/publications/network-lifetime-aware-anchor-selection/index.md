@@ -4,13 +4,13 @@ authors:
   - admin
 date: '2017-12-01T00:00:00Z'
 publishDate: '2017-12-01T00:00:00Z'
-publication: In *2017 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)*
-summary: Conference publication on energy-aware anchor selection strategies for energy-harvesting wireless sensor networks.
+publication: In *IEEE International Conference on Humanitarian Technology (HTC)*
+summary: This paper presents a **lifetime-aware anchor selection** approach for energy-harvesting wireless sensor networks, where anchor choices are adapted to harvested energy and communication constraints to improve long-term data collection reliability and overall network sustainability.
 abstract: This work studies anchor selection in energy-harvesting wireless sensor networks, focusing on lifetime-aware data collection under constrained energy conditions. The research examines how harvesting-aware selection strategies can improve network longevity while maintaining practical communication performance.
 featured: true
 links:
   - type: site
-    url: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201802219280607143
+    url: https://ieeexplore.ieee.org/document/8289024
 ---
 
-This publication comes from my undergraduate thesis work in the Green Networking Research Group at the University of Dhaka. It reflects my early interest in efficient systems, resource-aware optimization, and applied research with real engineering constraints.
+This publication grew out of my undergraduate thesis on energy-efficient routing and anchor selection in wireless sensor networks, where I studied trade-offs between energy consumption, harvested energy, and network lifetime.

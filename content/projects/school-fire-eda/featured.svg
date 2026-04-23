@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Sweden school fire data story placeholder image">
+  <defs>
+    <linearGradient id="data-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#data-bg)" />
+  <g transform="translate(110 150)">
+    <rect x="0" y="220" width="90" height="180" rx="18" fill="#fde68a" opacity="0.85" />
+    <rect x="130" y="140" width="90" height="260" rx="18" fill="#fbbf24" opacity="0.88" />
+    <rect x="260" y="90" width="90" height="310" rx="18" fill="#fb923c" opacity="0.92" />
+    <rect x="390" y="30" width="90" height="370" rx="18" fill="#f97316" opacity="0.95" />
+    <path d="M0 430h500" stroke="#fffbeb" stroke-width="12" stroke-linecap="round" />
+  </g>
+  <rect x="680" y="110" width="410" height="500" rx="30" fill="#ffffff" opacity="0.08" />
+  <text x="725" y="235" fill="#fdba74" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">DATA STORY / VISUAL ANALYTICS</text>
+  <text x="725" y="325" fill="#ffffff" font-family="Georgia, serif" font-size="52" font-weight="700">Sweden's School</text>
+  <text x="725" y="395" fill="#ffffff" font-family="Georgia, serif" font-size="52" font-weight="700">Fire Story</text>
+  <text x="725" y="475" fill="#ffedd5" font-family="Arial, Helvetica, sans-serif" font-size="28">Dummy placeholder image for project preview</text>
+</svg>

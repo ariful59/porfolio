@@ -1,0 +1,15 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="40" fill="url(#bg)"/>
+  <rect x="128" y="104" width="944" height="552" rx="36" fill="white" fill-opacity="0.88"/>
+  <path d="M600 214L636 286H718L652 336L678 414L600 372L522 414L548 336L482 286H564L600 214Z" fill="#0F766E"/>
+  <path d="M516 466H684" stroke="#1D4ED8" stroke-width="20" stroke-linecap="round"/>
+  <path d="M554 522H646" stroke="#1D4ED8" stroke-width="20" stroke-linecap="round" stroke-opacity="0.56"/>
+  <text x="600" y="602" fill="#0F172A" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">Award</text>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="72" x2="1116" y2="694" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CCFBF1"/>
+      <stop offset="0.5" stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#FEF3C7"/>
+    </linearGradient>
+  </defs>
+</svg>

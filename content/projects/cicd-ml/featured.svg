@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="CI/CD pipeline for ML projects placeholder image">
+  <defs>
+    <linearGradient id="cicd-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052e16" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#cicd-bg)" />
+  <rect x="110" y="140" width="170" height="88" rx="22" fill="#ccfbf1" opacity="0.9" />
+  <rect x="350" y="140" width="170" height="88" rx="22" fill="#99f6e4" opacity="0.8" />
+  <rect x="590" y="140" width="170" height="88" rx="22" fill="#5eead4" opacity="0.75" />
+  <rect x="830" y="140" width="170" height="88" rx="22" fill="#2dd4bf" opacity="0.7" />
+  <path d="M280 184h70M520 184h70M760 184h70" stroke="#ecfeff" stroke-width="12" stroke-linecap="round" />
+  <circle cx="1035" cy="184" r="16" fill="#ecfeff" />
+  <rect x="140" y="320" width="920" height="250" rx="34" fill="#ffffff" opacity="0.09" />
+  <text x="180" y="390" fill="#99f6e4" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">MLOPS / AUTOMATION / DEPLOYMENT</text>
+  <text x="180" y="465" fill="#ffffff" font-family="Georgia, serif" font-size="58" font-weight="700">CI/CD for ML</text>
+  <text x="180" y="535" fill="#ffffff" font-family="Georgia, serif" font-size="58" font-weight="700">Projects</text>
+  <text x="180" y="600" fill="#d1fae5" font-family="Arial, Helvetica, sans-serif" font-size="28">Dummy placeholder image for project preview</text>
+</svg>

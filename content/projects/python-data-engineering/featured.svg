@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Python project for data engineering placeholder image">
+  <defs>
+    <linearGradient id="python-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e40af" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#python-bg)" />
+  <rect x="130" y="150" width="260" height="110" rx="28" fill="#fbbf24" opacity="0.92" />
+  <rect x="130" y="300" width="260" height="110" rx="28" fill="#60a5fa" opacity="0.92" />
+  <rect x="130" y="450" width="260" height="110" rx="28" fill="#5eead4" opacity="0.92" />
+  <path d="M390 205h250M390 355h250M390 505h250M640 205v300h170" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.78" />
+  <rect x="810" y="405" width="260" height="140" rx="30" fill="#ffffff" opacity="0.16" />
+  <text x="120" y="100" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">PYTHON / ETL</text>
+  <text x="500" y="330" fill="#ffffff" font-family="Georgia, serif" font-size="60" font-weight="700">Data Engineering</text>
+  <text x="500" y="405" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="28">Reusable processing workflows for analytics</text>
+</svg>

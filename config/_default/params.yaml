@@ -5,7 +5,7 @@ appearance:
 
 marketing:
   seo:
-    description: "Ariful Amin is an AI/ML engineer and researcher with 6+ years of experience spanning wearable health systems, industrial analytics, interpretable machine learning, and biomedical AI."
+    description: "Ariful Amin is a Machine Learning Engineer and Researcher at Malmö University, working on interpretable biomedical time-series learning, medical imaging, multimodal AI, and deployable machine learning systems."
 
 header:
   navbar:
@@ -19,12 +19,12 @@ header:
       text: ""
       filename: logo.svg
     button:
-      enable: true
+      enable: false
       text: Download CV
       url: uploads/Ariful-Amin-CV.pdf
 
 footer:
-  text: "Open to PhD opportunities, research collaborations, and applied AI/ML work in healthcare, sensing, and data-intensive systems."
+  text: "Actively looking for fully funded PhD, Master's, and visiting research opportunities in machine learning, biomedical AI, medical imaging, time-series learning, and interpretable ML."
   copyright:
     notice: "© {year} Ariful Amin. All rights reserved."
     license:

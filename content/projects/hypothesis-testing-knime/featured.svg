@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Hypothesis testing using KNIME placeholder image">
+  <rect width="1200" height="720" fill="#1e1b4b" />
+  <circle cx="230" cy="330" r="82" fill="#f59e0b" opacity="0.88" />
+  <circle cx="515" cy="250" r="82" fill="#60a5fa" opacity="0.88" />
+  <circle cx="515" cy="455" r="82" fill="#5eead4" opacity="0.88" />
+  <circle cx="810" cy="352" r="82" fill="#f472b6" opacity="0.88" />
+  <path d="M312 330l121-54M312 330l121 86M597 250l131 78M597 455l131-79" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.72" />
+  <text x="120" y="115" fill="#fde68a" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">STATISTICAL WORKFLOW</text>
+  <text x="120" y="620" fill="#ffffff" font-family="Georgia, serif" font-size="60" font-weight="700">Hypothesis Testing in KNIME</text>
+</svg>

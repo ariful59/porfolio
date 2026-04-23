@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Patient health risk prediction placeholder image">
+  <defs>
+    <linearGradient id="health-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#health-bg)" />
+  <rect x="110" y="100" width="380" height="520" rx="32" fill="#eff6ff" opacity="0.12" />
+  <path d="M190 410h65l35-85 55 145 45-100h65" fill="none" stroke="#93c5fd" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="290" cy="255" r="52" fill="#dbeafe" opacity="0.9" />
+  <rect x="210" y="495" width="180" height="18" rx="9" fill="#dbeafe" opacity="0.75" />
+  <rect x="210" y="535" width="120" height="18" rx="9" fill="#dbeafe" opacity="0.55" />
+  <rect x="580" y="110" width="520" height="500" rx="30" fill="#ffffff" opacity="0.08" />
+  <text x="630" y="235" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">HEALTH / API / ML PIPELINE</text>
+  <text x="630" y="325" fill="#ffffff" font-family="Georgia, serif" font-size="54" font-weight="700">Patient Health</text>
+  <text x="630" y="395" fill="#ffffff" font-family="Georgia, serif" font-size="54" font-weight="700">Risk Prediction</text>
+  <text x="630" y="475" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="28">Dummy placeholder image for project preview</text>
+</svg>

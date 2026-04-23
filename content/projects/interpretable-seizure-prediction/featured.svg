@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Interpretable seizure prediction placeholder image">
+  <defs>
+    <linearGradient id="seizure-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e" />
+      <stop offset="50%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#seizure-bg)" />
+  <path d="M90 380c80 0 80-140 160-140s80 280 160 280 80-220 160-220 80 120 160 120 80-180 160-180 80 110 220 110" stroke="#99f6e4" stroke-width="18" fill="none" stroke-linecap="round" />
+  <rect x="104" y="98" width="992" height="524" rx="34" fill="#ffffff" opacity="0.08" />
+  <circle cx="322" cy="278" r="42" fill="#fbbf24" opacity="0.9" />
+  <circle cx="560" cy="516" r="42" fill="#60a5fa" opacity="0.9" />
+  <circle cx="878" cy="242" r="42" fill="#5eead4" opacity="0.9" />
+  <text x="138" y="180" fill="#ccfbf1" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">INTERPRETABLE BIOMEDICAL AI</text>
+  <text x="138" y="265" fill="#ffffff" font-family="Georgia, serif" font-size="58" font-weight="700">Seizure Prediction</text>
+  <text x="138" y="585" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="28">Prototype-based models for transparent time-series learning</text>
+</svg>

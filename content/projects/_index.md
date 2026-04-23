@@ -9,4 +9,4 @@ show_read_time: false
 show_read_more: true
 ---
 
-These projects reflect the overlap between my research interests and engineering background: interpretable machine learning, biomedical AI, multimodal learning, sensing, forecasting, and deployable ML systems.
+Selected work across healthcare AI, radar sensing, data engineering, and deployable machine learning systems.

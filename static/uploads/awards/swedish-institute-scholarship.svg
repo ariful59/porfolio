@@ -1,0 +1,22 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="40" fill="url(#bg)"/>
+  <circle cx="214" cy="598" r="176" fill="#99F6E4" fill-opacity="0.72"/>
+  <circle cx="1042" cy="190" r="184" fill="#93C5FD" fill-opacity="0.72"/>
+  <rect x="132" y="110" width="936" height="540" rx="36" fill="white" fill-opacity="0.88"/>
+  <rect x="252" y="188" width="696" height="272" rx="24" fill="#F8FAFC" stroke="#BFDBFE" stroke-width="14"/>
+  <path d="M418 500L480 402L560 470L690 288L782 382L870 256" stroke="#1D4ED8" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="418" cy="500" r="18" fill="#0F766E"/>
+  <circle cx="480" cy="402" r="18" fill="#0F766E"/>
+  <circle cx="560" cy="470" r="18" fill="#0F766E"/>
+  <circle cx="690" cy="288" r="18" fill="#0F766E"/>
+  <circle cx="782" cy="382" r="18" fill="#0F766E"/>
+  <circle cx="870" cy="256" r="18" fill="#0F766E"/>
+  <text x="600" y="585" fill="#0F172A" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle">Scholarship</text>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="74" x2="1108" y2="684" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="0.45" stop-color="#F0FDFA"/>
+      <stop offset="1" stop-color="#FEF3C7"/>
+    </linearGradient>
+  </defs>
+</svg>

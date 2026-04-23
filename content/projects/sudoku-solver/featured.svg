@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Sudoku solver placeholder image">
+  <rect width="1200" height="720" fill="#0f172a" />
+  <rect x="120" y="80" width="520" height="520" rx="28" fill="#f8fafc" />
+  <g stroke="#0f172a" stroke-width="5">
+    <path d="M178 80v520M236 80v520M294 80v520M352 80v520M410 80v520M468 80v520M526 80v520M584 80v520" opacity="0.36" />
+    <path d="M120 138h520M120 196h520M120 254h520M120 312h520M120 370h520M120 428h520M120 486h520M120 544h520" opacity="0.36" />
+    <path d="M294 80v520M468 80v520M120 254h520M120 428h520" stroke-width="10" opacity="0.88" />
+  </g>
+  <text x="175" y="165" fill="#1d4ed8" font-family="Georgia, serif" font-size="54" font-weight="700">9</text>
+  <text x="356" y="336" fill="#0f766e" font-family="Georgia, serif" font-size="54" font-weight="700">4</text>
+  <text x="536" y="512" fill="#f59e0b" font-family="Georgia, serif" font-size="54" font-weight="700">7</text>
+  <text x="720" y="245" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">C++ / ALGORITHMS</text>
+  <text x="720" y="340" fill="#ffffff" font-family="Georgia, serif" font-size="64" font-weight="700">Sudoku Solver</text>
+  <text x="720" y="430" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">Solve, grade, and generate unique puzzles</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="40" fill="url(#bg)"/>
+  <circle cx="1034" cy="158" r="164" fill="#93C5FD" fill-opacity="0.72"/>
+  <circle cx="206" cy="620" r="164" fill="#6EE7B7" fill-opacity="0.74"/>
+  <rect x="118" y="98" width="964" height="564" rx="36" fill="white" fill-opacity="0.88"/>
+  <path d="M252 470C320 360 390 306 456 306C510 306 548 334 600 390C652 446 690 474 744 474C810 474 882 418 948 308" stroke="#1D4ED8" stroke-width="28" stroke-linecap="round"/>
+  <path d="M252 516C320 406 390 352 456 352C510 352 548 380 600 436C652 492 690 520 744 520C810 520 882 464 948 354" stroke="#0F766E" stroke-width="18" stroke-linecap="round" stroke-opacity="0.55"/>
+  <circle cx="252" cy="470" r="30" fill="#0F766E"/>
+  <circle cx="948" cy="308" r="30" fill="#1D4ED8"/>
+  <circle cx="600" cy="390" r="34" fill="#F59E0B"/>
+  <text x="600" y="592" fill="#0F172A" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle">Digital Bridges</text>
+  <defs>
+    <linearGradient id="bg" x1="94" y1="74" x2="1110" y2="692" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset="0.5" stop-color="#ECFEFF"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+    </linearGradient>
+  </defs>
+</svg>
